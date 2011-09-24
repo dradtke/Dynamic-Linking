@@ -4,6 +4,10 @@
  *
  * Re-compiling the library while this program is
  * running should result in an immediate response.
+ *
+ * You should build this executable with this command:
+ *
+ *    $ gcc -o main main.c -ldl
  */
 
 #include "../../src/loader.c"
